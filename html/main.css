@@ -39,7 +39,8 @@ h5 {
 progress {
     appearance: none;
     overflow: hidden;
-    border-radius: 1rem;
+    border-radius: 0.1rem;
+    border: 1px solid #545454;
 }
 
 ::-webkit-progress-bar {
@@ -158,7 +159,7 @@ input[type='range']::-webkit-slider-thumb {
 #audio-controls {
     position: fixed;
     left: 50%;
-    bottom: 1.75rem;
+    bottom: 3.5rem;
     transform: translateX(-50%);
     overflow: hidden;
     width: 2.5rem;
